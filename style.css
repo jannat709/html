@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Croissant+One&family=Inclusive+Sans&family=Mooli&family=Space+Mono&display=swap');
+*{
+    font-family: 'Space Mono', monospace;
+}
+
+/* header styles */
+
+header{
+    background: rgb(255, 182, 182);
+    padding: 50px 240px ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.h{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: rgb(46, 38, 38);
+}
+nav>ul{
+    display: flex;
+}
+nav, li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(56, 34, 34);
+}
+.banner-cont{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+}
+.banpera{
+    color: rgb(80, 76, 76);
+}
+.btn{
+    color: black;
+    background-color: orange;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 15px;
+    font-weight: 300;
+    border: 0;
+    font-size: 1.25rem;
+}
+.banner-img{
+    width: 100%;
+    margin-top: 20px;
+    align-content: center;
+}
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
