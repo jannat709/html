@@ -91,6 +91,27 @@ main{
     color: orange;
     font-weight: 700;
 }
+
+.fats-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-container, .card{
+    border-radius: 8px;
+    border: 1px solid orange;
+    text-align: center;
+    padding: 30px;
+}
+.facts-container .card-title{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.facts-container .card-status{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
